@@ -14,7 +14,7 @@ const GET_SEARCH_SONGS = gql`
     }
 `;
 
-const helepel = async () => {
+const testingAPI = async () => {
     const options = {
         method: 'GET',
         headers: {
@@ -32,7 +32,7 @@ const helepel = async () => {
 
 function SongList() {
     //const { loading, error, data } = useQuery(GET_SEARCH_SONGS);
-    helepel();
+    //testingAPI();
     const loading = false;
     const error = undefined;
     const data = MOCK_DATA;
