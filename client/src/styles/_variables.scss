@@ -1,0 +1,12 @@
+$black-color: #000000;
+$def-text-color: #FFFFFF;
+$def-text-active-color: #3300FF;
+$def-border-radius: 25px;
+$def-font-size-song-text: 1.8rem;
+$def-font-size-author-text: 1.2rem;
+$def-font-family: 'Inter', sans-serif;
+
+@mixin background-style {
+  background: rgb(15,12,41);
+  background: linear-gradient(0deg, rgba(15,12,41,1) 0%, rgba(48,43,99,1) 100%);
+}
